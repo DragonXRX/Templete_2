@@ -1,0 +1,187 @@
+.container {
+    width: 100%;
+}
+
+/*------- Header ----------*/
+
+/* Navigation */
+
+header .Navigation nav {
+    justify-content: center;
+    width: fit-content;
+}
+
+header nav .alltog {
+    width: fit-content;
+    height: 100%;
+}
+
+header nav .alltog > i {
+    display: block;
+    font-size: 30px;
+    color: white;
+    padding: 25px 0;
+}header nav .alltog:hover > ul {
+    display: block;
+}
+
+header nav .alltog ul:hover li{
+    display: block;
+}
+
+header nav .alltog ul {
+    display: none;
+    position: absolute;
+    top: 80%;
+    right: 0;
+    background-color: #0e131bf0;
+    width: fit-content;
+    height: fit-content;
+    z-index: 2465;
+}
+
+header nav .alltog ul li {
+    padding: 15px 50px;
+    margin: 0;
+    text-align: center;
+}
+header nav .alltog ul li .active::before {
+    width: 0px;
+    height: 0px;
+    top: 0;
+    left: 0;
+}header nav .alltog ul li:hover a::before {
+    width: 0px;
+    height: 0px;
+    top: 0;
+    left: 0;
+}
+
+header nav .form {
+    display: none;
+}
+
+/* Hero */
+
+.hero .container .tex {
+    width: 100%;
+    transform: translateY(35%);
+}
+.hero .container .tex::before {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.hero .left, .hero .right {
+    display: none;
+}
+
+/*------- Services ----------*/
+
+.services .container .Tump .Mtu {
+    flex-direction: column;
+}
+
+.Mtu i {
+    text-align: center;
+    margin-right: 0;
+    margin-bottom: 20px;
+}
+
+.Mtu .ttx {
+    text-align: center
+}
+
+
+/*------- ourDes ----------*/
+
+.ourDes .container {
+    justify-content: center;
+}
+
+.ourDes .container .img1 img {
+    display: none;
+}
+
+.para::before {
+    width: 100%;
+}
+
+/*------- Portfolio ----------*/
+
+.allpor {
+    gap: 10px 0;
+    padding: 0 10px;
+}
+
+/*------- Video ----------*/
+
+.vid .ttx {
+    top: 10%;
+    padding: 5px 0;
+}
+
+.vid .ttx h2 {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+/*------- about ----------*/
+
+.about .img img {
+    width: 395px;
+    height: 250px;
+}
+
+.about .img {
+    left: 0;
+}
+
+
+/*------- status ----------*/
+
+.status {
+    height: 70vh;
+}
+
+.status .allco .col {
+    margin-bottom: 20px;
+}
+
+.status .allco {
+    padding: 22px 0;
+}
+
+/*------- Employers ----------*/
+
+.employ .container {
+    flex-direction: column-reverse;
+}
+
+/*------- Email ----------*/
+
+.mail .container {
+    justify-content: center;
+}
+
+.mail .container form {
+    height: 60px;
+}
+
+.mail .container p {
+    display: none;
+}
+
+/*------- Pricing ----------*/
+
+.pricing .allcoll {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+/*----- We Are Social------- */
+
+footer {
+    height: calc(110vh / 2);
+}

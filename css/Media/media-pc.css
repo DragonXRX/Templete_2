@@ -1,0 +1,55 @@
+/*------- Header ----------*/
+
+/* Navigation */
+
+header .Navigation nav {
+    width: 100%;
+    justify-content: flex-end;
+}
+
+/* Hero */
+
+.hero .container .tex {
+    transform: translateY(46%);
+}
+
+/*------- ourDes ----------*/
+
+.ourDes .container .img1 {
+    flex-basis: 45%;
+}
+
+.ourDes .container .para {
+    flex-basis: 45%;
+}
+
+/*------- about ----------*/
+
+.about .img {
+    width: 100%;
+    position: relative;
+    bottom: -43px;
+    left: 0;
+    }
+    
+    .about .img img {
+        width: 100%;
+    }
+
+/*------- Email ----------*/
+
+
+.mail .container form {
+    height: 60px;
+}
+
+.mail .container p {
+    height: 60px;
+    overflow: auto;
+}
+
+/*------- Pricing ----------*/
+
+.pricing .allcoll {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}

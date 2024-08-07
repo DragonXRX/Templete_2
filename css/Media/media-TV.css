@@ -1,0 +1,15 @@
+/*------- Header ----------*/
+
+/* Navigation */
+
+header nav .form i {
+    width: 40px;
+}
+
+
+/*------- Email ----------*/
+
+.mail .container form i {
+    top: 36%;
+}
+

@@ -1,0 +1,162 @@
+.container {
+    width: 90%;
+}
+
+/*------- Header ----------*/
+
+/* Navigation */
+
+header .Navigation nav {
+    justify-content: center;
+    width: fit-content;
+}
+
+header nav .alltog {
+    width: fit-content;
+    height: 100%;
+}
+
+header nav .alltog > i {
+    display: block;
+    font-size: 30px;
+    color: white;
+    padding: 25px 0;
+}header nav .alltog:hover > ul {
+    display: block;
+}
+
+header nav .alltog ul:hover li{
+    display: block;
+}
+
+header nav .alltog ul {
+    display: none;
+    position: absolute;
+    top: 80%;
+    right: 0;
+    background-color: #0e131bf0;
+    width: fit-content;
+    height: fit-content;
+    z-index: 2465;
+}
+
+header nav .alltog ul li {
+    padding: 15px 50px;
+    margin: 0;
+    text-align: center;
+}
+header nav .alltog ul li .active::before {
+    width: 0px;
+    height: 0px;
+    top: 0;
+    left: 0;
+}header nav .alltog ul li:hover a::before {
+    width: 0px;
+    height: 0px;
+    top: 0;
+    left: 0;
+}
+
+header nav .form {
+    display: none;
+}
+
+/* Hero */
+
+.hero .container .tex {
+    width: 100%;
+    transform: translateY(35%);
+}
+.hero .container .tex::before {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.hero .left, .hero .right {
+    display: none;
+}
+
+/*------- ourDes ----------*/
+
+.ourDes .container .img1 img {
+    display: none;
+}
+
+.para::before {
+    width: 100%;
+}
+
+.ourDes .container {
+    justify-content: center;
+}
+
+.ourDes .container .para {
+    flex-basis: 100%;
+}
+
+/*------- Video ----------*/
+
+.vid .ttx {
+    top: 16%;
+}
+
+/*------- about ----------*/
+
+.about .img {
+width: 100%;
+position: relative;
+bottom: -43px;
+left: 0;
+}
+
+.about .img img {
+    width: 100%;
+}
+
+/*------- status ----------*/
+.status {
+    height: 70vh;
+}
+
+.status .allco .col {
+    margin-bottom: 20px;
+}
+
+.status .allco {
+    padding: 22px 0;
+}
+
+/*------- Employers ----------*/
+
+.employ .container {
+    flex-direction: column-reverse;
+}
+
+
+/*------- Email ----------*/
+
+.mail .container {
+    justify-content: center;
+}
+
+.mail .container form {
+    height: 60px;
+}
+
+.mail .container p {
+    display: none;
+}
+
+/*------- Pricing ----------*/
+
+.pricing .allcoll {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+/*----- We Are Social------- */
+
+footer {
+    height: calc(110vh / 2);
+}
